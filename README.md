@@ -4,6 +4,7 @@
 
 This STM32F4-based embedded C project uses three different sensors to detect environmental inputs and respond using GPIO LEDs.
 # Three Sensors
+
   1.PIR Motion Sensor
   2.Ultrasonic Distance Sensor
   3.LDR (Light Dependent Resistor)
