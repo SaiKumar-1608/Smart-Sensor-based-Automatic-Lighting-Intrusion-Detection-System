@@ -93,8 +93,13 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -o main.elf main.c ...
 
 # Flash (using st-flash)
 st-flash write main.bin 0x8000000
+```
 
 ---
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+
+
+
