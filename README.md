@@ -4,6 +4,18 @@ An embedded C project built for the **STM32F4** microcontroller, using three typ
 
 ---
 
+## 📖 Overview
+
+This project demonstrates how embedded systems can integrate multiple sensors to build an automated environment-aware system. It activates upon a push button interrupt and performs continuous monitoring of:
+
+- **Motion** via a PIR sensor
+- **Distance** using an Ultrasonic sensor
+- **Light level** through an LDR and ADC
+
+Each sensor is mapped to a specific LED output, offering intuitive feedback for real-time detection.
+
+---
+
 ##  Features
 
 - **Start Trigger via Button (PA0)**
@@ -81,3 +93,8 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -o main.elf main.c ...
 
 # Flash (using st-flash)
 st-flash write main.bin 0x8000000
+
+---
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
